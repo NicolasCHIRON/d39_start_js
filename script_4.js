@@ -42,8 +42,11 @@ console.log(firstAndLast);
 console.log(" ");
 console.log("Voici l'âge qu'aurait chacun des entrepreneurs aujourd'hui :");
 
+let today = new Date()
+let thisYear = today.getFullYear()
+
 entrepreneurs.forEach(entrepreneur => {
-    console.log(entrepreneur.first + " " + entrepreneur.last + " aurait " + (2023 - entrepreneur.year) + " ans aujourd'hui !");
+    console.log(entrepreneur.first + " " + entrepreneur.last + " aurait " + (thisYear - entrepreneur.year) + " ans aujourd'hui !");
 });
 
 console.log(" ");

@@ -18,6 +18,6 @@ while (true) {
     }
     
   console.log(`Le résultat est : ${factorial}`);
-  break
+  break;
   }
 }
